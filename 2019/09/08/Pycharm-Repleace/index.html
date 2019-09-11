@@ -142,6 +142,14 @@
             
         
     
+        
+            
+            <li><div data-rel="爬虫">爬虫<small>(1)</small></div>
+                
+            </li>
+            
+        
+    
 </ul>
 <div class="left-bottom">
     <div class="menus">
@@ -190,19 +198,15 @@
         <a href="javascript:" class="color3">PyCharm</a>
     </li>
     
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">面试</a>
+    </li>
+    
     <div class="clearfix"></div>
 </div>
 
     
     <nav id="title-list-nav">
-        
-        <a  class="实用小技巧 "
-           href="/2019/09/08/Pycharm-Repleace/"
-           data-tag="PyCharm"
-           data-author="" >
-            <span class="post-title" title="冒号两端内容替换">冒号两端内容替换</span>
-            <span class="post-date" title="2019-09-08 22:08:00">2019/09/08</span>
-        </a>
         
         <a  class=""
            href="/2019/09/07/hello-world/"
@@ -212,12 +216,20 @@
             <span class="post-date" title="2019-09-07 13:54:49">2019/09/07</span>
         </a>
         
-        <a  class=""
-           href="/2019/09/12/爬虫面试题集/"
-           data-tag=""
+        <a  class="实用小技巧 "
+           href="/2019/09/08/Pycharm-Repleace/"
+           data-tag="PyCharm"
            data-author="" >
-            <span class="post-title" title=""></span>
-            <span class="post-date" title="2019-09-12 02:03:51">2019/09/12</span>
+            <span class="post-title" title="冒号两端内容替换">冒号两端内容替换</span>
+            <span class="post-date" title="2019-09-08 22:08:00">2019/09/08</span>
+        </a>
+        
+        <a  class="爬虫 "
+           href="/2019/09/08/爬虫面试题集/"
+           data-tag="面试"
+           data-author="" >
+            <span class="post-title" title="爬虫面试题集">爬虫面试题集</span>
+            <span class="post-date" title="2019-09-08 22:08:00">2019/09/08</span>
         </a>
         
     </nav>
@@ -379,7 +391,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#PyCharm',],
+            'data': ['#PyCharm','#面试',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
